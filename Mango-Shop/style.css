@@ -156,6 +156,15 @@ header {
   background-image: url('./img/main-image3.jpg');
 }
 
+main {
+  background: #000000;
+  color: #ffff00;
+}
+
+#main-greeting {
+  text-align: center;
+}
+
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
