@@ -159,10 +159,34 @@ header {
 main {
   background: #000000;
   color: #ffff00;
+  font-family: 'Gothic A1', sans-serif;
+  text-align: center;
 }
 
 #main-greeting {
-  text-align: center;
+  padding-top: 30px;
+}
+
+#main-greeting p {
+  padding: 20px 0;
+}
+
+.main-content-sub-title {
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.main-content-title {
+  margin-bottom: 50px;
+}
+
+.more-btn {
+  width: 120px;
+  height: 60px;
+  background-color: #ffffff;
+  border: 1px solid #ffff00;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 footer {
