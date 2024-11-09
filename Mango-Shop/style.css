@@ -181,12 +181,68 @@ main {
 }
 
 div.item-container {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
   width: 300px;
   height: 500px;
   background: #ffffff;
   border: 1px solid #ffff00;
   margin: 0 10px;
+  text-align: left;
+}
+
+div.item-container p {
+  color: #000000;
+}
+
+div.item-container > div {
+  margin-bottom: 5px;
+}
+
+div.item-img {
+  width: 100%;
+  height: 70%;
+  background-color: pink;
+}
+
+div.item-title p {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+div.item-price p {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.saled-line {
+  color: #808080;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+
+.saled-percent {
+  color: #ff0000;
+  font-size: 20px;
+}
+
+div.item-brand p {
+  font-size: 16px;
+  color: #808080;
+}
+
+div.heart-bag {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+div.heart-bag a {
+  color: #000000;
+  font-size: 20px;
+  margin: 0 5px;
 }
 
 .more-btn {
