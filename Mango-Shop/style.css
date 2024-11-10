@@ -80,7 +80,7 @@ header {
 
 #left-navbar > ul > li > a:hover + .submenu,
 .submenu:hover {
-  max-height: 500px;
+  max-height: 1000px;
 }
 
 #search-box {
