@@ -226,6 +226,7 @@ div.item-more:hover p {
   border: 1px solid #ffffff;
   padding: 5px 10px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 div.item-title p {
